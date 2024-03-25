@@ -36,6 +36,9 @@ const truncateDescription = (description, maxLength) => {
 async function Page() {
   const { cars } = await getCars();
 
+
+  
+
   return (
     <>
       <div className="mt-6 h-16 outline-2 outline-orange-500 outline rounded-lg p-4 w-[80%] mx-auto">

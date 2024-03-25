@@ -21,6 +21,4 @@ const carsSchema = new Schema(
 
 const Cars = mongoose.models.Cars || mongoose.model("Cars", carsSchema);
 
-console.log(Cars.schema); // Afficher le schéma du modèle dans la console
-
 export default Cars;
